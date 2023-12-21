@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    adding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    padding-top: 5px;
+}
+#navbarimage {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 70px;
+}
+
+/* LINKS STYLING IN CSS */
+
+/* unvisited link */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(120, 236, 12);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aqua;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+
+ul {
+    list-style-type: none;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    font-size: 30px;
+    padding: 40px;
+}
+#icons {
+    color: rgb(241, 2, 2);
+    justify-content: space-around;
+    padding: 30px;
+}
+h1 {
+    font-size: 7em;
+    color: rgb(120, 236, 12);
+    padding: 100px;
+    text-align: center;
+}
+h2 {
+    font-size: 5em;
+
+}
+h3{
+    font-size: 32px;
+    /* float: right; */
+    /* padding-right: 200px; */
+    margin-left: 70%;
+}
+.redinred{
+    color: rgb(120, 236, 12);
+}
+.stack{
+    font-family: "Courier New", Courier, monospace;
+}
+.body-container {
+    color: rgb(241, 2, 2);
+}
+.footer-container {
+    text-align: center;
+    color: rgb(241, 2, 2);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#footericons {
+    padding-inline-start: 20px;
+    /* padding-left: 20px; */
+}
+/* 
+max-width
+margin (external)
+padding (internal)
+box sizing
+Web simulator app/extension 
+object-fit: cover/contain
+overflow
+@media screen and (min-width: 980px){
+
+    */
